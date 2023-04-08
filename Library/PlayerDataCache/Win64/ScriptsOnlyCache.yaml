@@ -72,6 +72,18 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: MainMenu
     methodName: backToMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: MainMenu
+    methodName: backToMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: MainMenu
+    methodName: loadLevel_2
+  - assembly: Assembly-CSharp
+    fullTypeName: MainMenu
+    methodName: loadLevel_3
+  - assembly: Assembly-CSharp
+    fullTypeName: MainMenu
+    methodName: loadLevel_1
   sceneClasses:
     Assets/Scenes/Abouts Menu.unity:
     - Class: 1
@@ -97,24 +109,73 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1582}
     - Class: 114
-      Script: {instanceID: 2558}
+      Script: {instanceID: 2118}
     - Class: 114
-      Script: {instanceID: 2758}
+      Script: {instanceID: 2560}
     - Class: 114
-      Script: {instanceID: 3030}
+      Script: {instanceID: 2760}
     - Class: 114
-      Script: {instanceID: 4926}
+      Script: {instanceID: 3032}
     - Class: 114
-      Script: {instanceID: 5460}
+      Script: {instanceID: 4930}
     - Class: 114
-      Script: {instanceID: 5604}
+      Script: {instanceID: 5464}
     - Class: 114
-      Script: {instanceID: 5912}
+      Script: {instanceID: 5608}
     - Class: 114
-      Script: {instanceID: 24598}
+      Script: {instanceID: 5916}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/LevelSelect.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1582}
+    - Class: 114
+      Script: {instanceID: 2118}
+    - Class: 114
+      Script: {instanceID: 2560}
+    - Class: 114
+      Script: {instanceID: 2760}
+    - Class: 114
+      Script: {instanceID: 3032}
+    - Class: 114
+      Script: {instanceID: 5464}
+    - Class: 114
+      Script: {instanceID: 5916}
+    - Class: 115
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -143,6 +204,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 49
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 89
@@ -158,25 +221,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1582}
     - Class: 114
-      Script: {instanceID: 2150}
+      Script: {instanceID: 2118}
     - Class: 114
-      Script: {instanceID: 2558}
+      Script: {instanceID: 2152}
     - Class: 114
-      Script: {instanceID: 2758}
+      Script: {instanceID: 2560}
     - Class: 114
-      Script: {instanceID: 3030}
+      Script: {instanceID: 2760}
     - Class: 114
-      Script: {instanceID: 4006}
+      Script: {instanceID: 3032}
     - Class: 114
-      Script: {instanceID: 4252}
+      Script: {instanceID: 4010}
     - Class: 114
-      Script: {instanceID: 4926}
+      Script: {instanceID: 4256}
     - Class: 114
-      Script: {instanceID: 5460}
+      Script: {instanceID: 4930}
     - Class: 114
-      Script: {instanceID: 5912}
+      Script: {instanceID: 5464}
     - Class: 114
-      Script: {instanceID: 24598}
+      Script: {instanceID: 5916}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -217,21 +280,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1582}
     - Class: 114
-      Script: {instanceID: 2558}
+      Script: {instanceID: 2118}
     - Class: 114
-      Script: {instanceID: 2758}
+      Script: {instanceID: 2560}
     - Class: 114
-      Script: {instanceID: 3030}
+      Script: {instanceID: 2760}
     - Class: 114
-      Script: {instanceID: 4926}
+      Script: {instanceID: 3032}
     - Class: 114
-      Script: {instanceID: 5460}
+      Script: {instanceID: 4930}
     - Class: 114
-      Script: {instanceID: 5604}
+      Script: {instanceID: 5464}
     - Class: 114
-      Script: {instanceID: 5912}
+      Script: {instanceID: 5608}
     - Class: 114
-      Script: {instanceID: 24598}
+      Script: {instanceID: 5916}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -303,6 +366,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnMouseExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MainMenu
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -477,6 +546,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnMouseDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Back
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1023,21 +1098,10 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MainMenu
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Back
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
   - Assets/Scenes/Abouts Menu.unity
   - Assets/Scenes/Setting Menu.unity
+  - Assets/Scenes/LevelSelect.unity
   playerPath: D:/LapTrinhGames/My project (5)/My project (5).exe
